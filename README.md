@@ -10,7 +10,7 @@
 - Migrated data from JSON files into MongoDB collections.
 - Set up Mongoose models for events, myths, and resources.
 
-## **Day 2: Integrating the Backend with the Frontend**
+## **Step 2: Integrating the Backend with the Frontend**
 **Objective:** Refactor the frontend to fetch data from the backend.
 **Tasks:**
 - Replaced static JSON fetch calls with dynamic API requests to the backend.
