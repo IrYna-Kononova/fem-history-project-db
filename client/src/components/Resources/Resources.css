@@ -1,0 +1,71 @@
+.resources-container {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(230, 255, 247);
+  font-family: 'Edu Australia VIC WA NT Hand', cursive;
+}
+
+.resources-container h1 {
+  color: rgb(71, 140, 207);
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.resource-card {
+  background-color: rgb(54, 194, 206);
+  padding: 20px; 
+  border-radius: 10px;
+  list-style: none;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+  background-color: rgb(71, 140, 207);
+}
+
+.resource-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: rgb(230, 255, 247);
+
+}
+
+.resource-card h3 {
+  font-size: 1.2rem;
+  color: rgb(69, 53, 193);
+  margin-bottom: 10px;
+}
+
+.resource-card p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.resource-card a {
+  color: rgb(230, 255, 247);
+  text-decoration: none;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.3s;
+}
+
+.resource-card a:hover {
+  color: rgb(69, 53, 193); 
+  text-decoration: underline;
+}
+
+.resource-card i {
+  margin-right: 5px;
+}
+
+  
