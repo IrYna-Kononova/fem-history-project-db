@@ -1,4 +1,4 @@
-# fem-history-project-db
+# fem-history-project-db 🧞‍♀️
 
 ## **Step 1: Backend Setup and Basic API for Data Handling**
 **Objective:** Set up a Node.js backend using Express and integrate it with MongoDB.
